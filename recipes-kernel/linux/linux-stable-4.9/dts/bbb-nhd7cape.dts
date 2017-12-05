@@ -83,6 +83,12 @@
 	};
 };
 
+&ehrpwm1 {
+	pinctrl-names = "default";
+	pinctrl-0 = <&backlight_pin>;
+	status = "okay";
+};
+
 &lcdc {
 	status = "okay";
 	blue-and-red-wiring = "crossed";
